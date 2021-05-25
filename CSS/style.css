@@ -1,3 +1,47 @@
 body { 
     margin: 0;
 }
+
+#nav {
+    background-image: url("../IMGS/wm_Pattern66.jpg");
+    background-size: 110%;
+    background-position: center;
+    border-bottom: solid 5px  rgb(34, 30, 30);
+}
+
+.marca{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(44, 44, 44);
+}
+.marca:hover{
+    color: rgb(236, 225, 65);
+    transition: 800ms;
+}
+
+.menuBotton{
+    margin-left: 30px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(44, 44, 44);
+}
+
+.menuBotton:hover{
+    color: rgb(236, 225, 65);
+    transition: 800ms;
+}
+
+.margin{
+
+    position: absolute;
+}
+
+.promoBanner {
+    background-position: center;
+    background-color: rgb(168, 24, 24);
+}
+
