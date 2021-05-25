@@ -11,10 +11,12 @@
 </head>
 
 <body>
+ <!-- BARRA NAVEGAÇÃO SUPERIOR -->
+
 
     <nav id="nav" class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar marca" href="#">Pizzaria MassaBoa</a>
+          <a class="navbar" href="#"><img class="logo" src="IMGS/logo.png" alt="" srcset=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,23 +48,58 @@
         </div>
       </nav>
 
+<!-- CAROUSEL -->
 
-    <div class="col-6"></div>
+    <div class="col-12">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner center-block promoBanner">
-            <div class="col">fsdfsdf</div>
+        <div class="carousel-inner center-block justify-content-md-center promoBanner">
           <div class="carousel-item active">
+            <div class="carousel-caption col-4">
+              <div class="jumbotron">
+                <br><br>
+                <h1 class="display-6">Aproveite nossa promoção!</h1>
+                <p class="lead mt-5">Na compra de uma pizza gigante, ganhe 50% de desconto em uma broto doce!</p>
+                <hr class="my-5">
+                <p>Promoção por tempo limitado.</p>
+                <a class="btn btn-warning btn-lg mt-4" href="#" role="button">Peça agora!</a>
+              </div>
+            </div>
             <img src="IMGS/promo1.jpg" class="d-block" alt="promo img 1">
           </div>
-          <div class="carousel-item center-block promoBanner">
+          <div class="carousel-item center-block">
+            <div class="carousel-caption col-4">
+              <div class="jumbotron">
+                <br><br>
+                <h1 class="display-6">Forno a lenha!</h1>
+                <p class="lead mt-5">Pizzas feitas com o melhor dos igredientes e no forno a lenha.</p>
+
+                <a class="btn btn-warning btn-lg mt-4" href="#" role="button">Peça agora!</a>
+              </div>
+            </div>
             <img src="IMGS/promo2.jpg" class="d-block" alt="promo img 2">
           </div>
           <div class="carousel-item center-block">
+            <div class="carousel-caption col-4">
+              <div class="jumbotron">
+                <br><br>
+                <h1 class="display-6">Todo dia da semana uma promoção diferente!</h1>
+                <p class="lead mt-5"><ul class="listPromos">
+                  <li>Terça-feira: Pizza Tradicionáis <strong>20% off!</strong> </li>
+                  <li>Quarta-feira: Rodizio por <strong> R$ 35,00!</strong></li>
+                  <li>Quinta-feira: Adicional <strong> gratis </strong> na compra de porções!</li>
+                  <li>Sexta-feira: Pizzas especiais <strong> 20% off!</strong></li>
+                  <li>Sábado-feira: Massas e pastéis <strong> 30% off!</strong></li>
+                </ul></p>
+                <hr class="my-5">
+                <p>Promoção por tempo limitado.</p>
+                <a class="btn btn-warning btn-lg mt-4" href="#" role="button">Peça agora!</a>
+              </div>
+            </div>
             <img src="IMGS/promo3.jpg" class="d-block" alt="promo img 3">
           </div>
         </div>
@@ -76,10 +113,11 @@
         </button>
         </div>
       </div>
+    </div>
 
 
     <hr>
-
+<!-- CARDÁPIO -->
     <div class="container">
         <div class="row justify-content-md-center mt-5 mb-5">
           <div class="col-md-auto">
@@ -88,34 +126,80 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-5">
         <div class="row">
     <div class="card mx-auto" style="width: 18rem; padding: 5px;">
         <img class="card-img-top" src="IMGS/chapeados.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Chapeados</h5>
+          <p class="card-text">Alcatra, calabresa, filé de frango, você escolhe e nós fazemos!</p>
+          <a href="#" class="btn btn-primary">Peça aqui!</a>
         </div>
       </div>
       <div class="card mx-auto" style="width: 18rem; padding: 5px;">
-        <img class="card-img-top" src="IMGS/chapeados.jpg" alt="Card image cap">
+        <img class="card-img-top" src="IMGS/pizza-tradicional.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Pizzas tradicionais</h5>
+          <p class="card-text">As mais queridas de todos! Massa fina ou grosa e muito recheio!</p>
+          <a href="#" class="btn btn-primary">Peça aqui!</a>
         </div>
       </div>
       <div class="card mx-auto" style="width: 18rem; padding: 5px;">
-        <img class="card-img-top" src="IMGS/chapeados.jpg" alt="Card image cap">
+        <img class="card-img-top" src="IMGS/pizza-especial.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Pizzas especiais</h5>
+          <p class="card-text">Camarão, filé mignon, seis queijos e muito mais!</p>
+          <a href="#" class="btn btn-primary">Peça aqui!</a>
+        </div>
+      </div>
+      <div class="card mx-auto" style="width: 18rem; padding: 5px;">
+        <img class="card-img-top" src="IMGS/pizza-doce.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pizza doce</h5>
+          <p class="card-text">Para as formigas de plantão, pizzas doces com o melhor dos ingredientes!</p>
+          <a href="#" class="btn btn-primary">Peça aqui!</a>
         </div>
       </div>
     </div>
 </div>
+
+    <div class="container mb-5">
+        <div class="row">
+    <div class="card mx-auto" style="width: 18rem; padding: 5px;">
+        <img class="card-img-top" src="IMGS/pastel.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Pastéis</h5>
+          <p class="card-text">Muitos sabores, ingredientes selecionados.</p>
+          <a href="#" class="btn btn-primary">Peça aqui!</a>
+        </div>
+      </div>
+      <div class="card mx-auto" style="width: 18rem; padding: 5px;">
+        <img class="card-img-top" src="IMGS/lanches.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Lanches</h5>
+          <p class="card-text">Vontade de comer aquele Hamburguer artesanal?</p>
+          <a href="#" class="btn btn-primary">Peça aqui!</a>
+        </div>
+      </div>
+      <div class="card mx-auto" style="width: 18rem; padding: 5px;">
+        <img class="card-img-top" src="IMGS/espaguete.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Massas</h5>
+          <p class="card-text">O melhor da cozinha tradicional italiana, espaguete e lasanhas frescos.</p>
+          <a href="#" class="btn btn-primary">Peça aqui!</a>
+        </div>
+      </div>
+      <div class="card mx-auto" style="width: 18rem; padding: 5px;">
+        <img class="card-img-top" src="IMGS/Frango.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Porções</h5>
+          <p class="card-text">Frango a passarinho, Batata frita, Polenta, porções diversas.</p>
+          <a href="#" class="btn btn-primary">Peça aqui!</a>
+        </div>
+      </div>
+    </div>
+</div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>

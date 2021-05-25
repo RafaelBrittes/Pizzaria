@@ -1,12 +1,15 @@
 body { 
+    position: relative;
     margin: 0;
 }
 
 #nav {
+    position: relative;
     background-image: url("../IMGS/wm_Pattern66.jpg");
     background-size: 110%;
     background-position: center;
     border-bottom: solid 5px  rgb(34, 30, 30);
+    height: 120px;
 }
 
 .marca{
@@ -19,6 +22,11 @@ body {
 .marca:hover{
     color: rgb(236, 225, 65);
     transition: 800ms;
+}
+
+.logo{
+    position: relative;
+    height:300px; 
 }
 
 .menuBotton{
@@ -35,13 +43,20 @@ body {
     transition: 800ms;
 }
 
-.margin{
-
-    position: absolute;
-}
-
 .promoBanner {
     background-position: center;
     background-color: rgb(168, 24, 24);
 }
 
+.carousel-caption {
+    position: absolute;
+    top:10px;
+    margin-left: 500px;
+
+ }
+
+.listPromos {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+}
