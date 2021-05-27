@@ -9,7 +9,6 @@ body {
     background-size: 110%;
     background-position: center;
     border-bottom: solid 5px  rgb(34, 30, 30);
-    height: 120px;
 }
 
 .marca{
@@ -26,7 +25,8 @@ body {
 
 .logo{
     position: relative;
-    height:300px; 
+    height:200px; 
+    margin: -25px -25px -45px -25px;
 }
 
 .menuBotton{
@@ -69,6 +69,7 @@ body {
 }
 
 #sobre {
+    height: 250px;
     border-top: solid 5px  rgb(160, 31, 31);
     border-bottom: solid 5px rgb(160, 31, 31);
     background-attachment: fixed;
@@ -84,9 +85,9 @@ body {
 
 #sobre li {
     font-size: 2.5em;
-    padding: 30px 20px;
+    padding: 10px 10px;
     color: white;
     font-weight: 900;
     list-style: none;
-    text-shadow: 1px 1px 7px black ;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0) ;
 }
