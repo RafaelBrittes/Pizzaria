@@ -10,7 +10,7 @@ a{
 #nav {
     position: relative;
     background-image: url("../IMGS/wm_Pattern66.jpg");
-    background-size: 110%;
+    background-size: 30%;
     background-position: center;
     border-bottom: solid 5px  rgb(34, 30, 30);
 }
@@ -36,8 +36,8 @@ a{
 
 .logo{
     position: relative;
-    height:200px; 
-    margin: -25px -25px -45px -25px;
+    max-height:130px; 
+    margin: -25px -25px -35px -15px;
 }
 
 .menuBotton{
@@ -106,6 +106,19 @@ a{
 
 #semiFooter{
     margin: 20px 20px;
-
 }
 
+#footer {
+    background-color: rgb(44, 44, 44);
+    padding-top: 30px ;
+    color: rgb(168, 168, 168);
+}
+
+#footer a {
+    color: rgb(168, 168, 168);
+}
+
+.mapa{
+    margin-top: -10px;
+    padding: 0px 20px ;
+}
