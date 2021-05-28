@@ -10,7 +10,7 @@ a{
 #nav {
     position: relative;
     background-image: url("../IMGS/wm_Pattern66.jpg");
-    background-size: 30%;
+    background-size: 150%;
     background-position: center;
     border-bottom: solid 5px  rgb(34, 30, 30);
 }
@@ -43,10 +43,10 @@ a{
 .menuBotton{
     margin-left: 30px;
     font-size: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 600;
     text-decoration: none;
-    text-shadow: 2px 2px rgb(44, 44, 44);
+    text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .menuBotton:hover{
@@ -112,6 +112,11 @@ a{
     background-color: rgb(44, 44, 44);
     padding-top: 30px ;
     color: rgb(168, 168, 168);
+    position: relative;
+    background-image: url("../IMGS/wm_Pattern66.jpg");
+    background-size: 150%;
+    background-position: center;
+
 }
 
 #footer a {
